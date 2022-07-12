@@ -1,14 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normolaze.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F&G</title>
 </head>
+
 <body>
+
+    <!-- ================== Header ================== -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a class="logo__item" href="#">
+                        <img src="img/Logo.svg" alt="F&G">
+                    </a>
+                </div>
+
+                <nav class="nav-menu">
+                    <ul class="nav-menu__list">
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <div class="icons">
+                        <div class="card"></div>
+                        <a class="btn btn-white" href="#">Register</a>
+                        <a class="btn btn-orange" href="#">Login</a>
+                    </div>
+                </nav>
+
+                <div class="burger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ================== Main ================== -->
+    <main class="main">
+        <div class="container">
+            <div class="main-inner">
+                <div class="main__content">
+                    <h1>Don’t wanna Make you have A bad day
+                    </h1>
+                    <p class="main__content__text">
+                        Our job is delivering a delicious food with fast , free delivery and easy.
+                    </p>
+
+                    <div class="content-btns">
+                        <a class="btn btn-orange" href="#">Order Now
+                        </a>
+                        <a class="btn btn-white" href="#">How to order</a>
+                    </div>
+
+                    <div class="customer-review">
+                        <div class="customer-review__photo">
+                            <img src="img/customer1.jpg" alt="customer">
+                            <img src="img/customer2.jpg" alt="customer">
+                            <img src="img/customer3.jpg" alt="customer">
+                        </div>
+                        <div class="customer-review__text">
+                            <h4 class="customer-review__text__header">
+                                Customer Review
+                            </h4>
+                            <p class="customer-review__text__desc">
+                                4.8 <span>(5k reviews)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__photo">
+                    <img src="img/mainbg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ================== Section Support ================== -->
+    <section class="section-support">
+        <div class="container">
+            <p class="support__desc">
+                Support by :
+            </p>
+            <div class="support-inner">
+                <div class="suppor__img">
+                    <img src="img/company1.svg" alt="">
+                </div>
+                <div class="suppor__img">
+                    <img src="img/company2.svg" alt="">
+                </div>
+                <div class="suppor__img">
+                    <img src="img/company3.svg" alt="">
+                </div>
+                <div class="suppor__img">
+                    <img src="img/company4.svg" alt="">
+                </div>
+                <div class="suppor__img">
+                    <img src="img/company5.svg" alt="">
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================== Section Service ================== -->
+    <section class="section-service">
+        <div class="container">
+            <div class="service-inner">
+                <p class="subtitle service__subtitle">
+                    - Our Services -
+                </p>
+                <h2 class="title service__title">
+                    Our serve just for you
+                </h2>
+                <div class="service-cards">
+                    <div class="service-cards__item">
+                        <img src="img/delivery-address/pana.svg" alt="">
+                        <h3 class="service-cards__item__title">
+                            Delivery Food
+                        </h3>
+                        <p class="service-cards__item__desc">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </p>
+                    </div>
+
+                    <div class="service-cards__item">
+                        <img src="img/delivery-address/pana2.svg" alt="">
+                        <h3 class="service-cards__item__title">
+                            Easy to order
+                        </h3>
+                        <p class="service-cards__item__desc">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </p>
+                    </div>
+
+                    <div class="service-cards__item">
+                        <img src="img/delivery/amico.svg" alt="">
+                        <h3 class="service-cards__item__title">
+                            Fastest Delivery
+                        </h3>
+                        <p class="service-cards__item__desc">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================== Section popular ================== -->
+    <section class="section-popular">
+        <div class="container-popular">
+            <div class="popular-inner">
+                <p class="subtitle">
+                    - Popular Delivery -
+                </p>
+                <h2 class="title">
+                    Trending food
+                </h2>
+                <div class="popular-slider">
+                    <div class="popular-slider__wrapper swiper-wrapper">
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/pizza.jpg" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $20
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Special Pizza
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/pancake.jpg" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $20
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Pancake
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/straw.jpg" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $20
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Straw Cake
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/banan.png" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $20
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Banan
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/Meat-ball.jpg" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $15
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Meat ball
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/burger.jpg" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $8
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Burger
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="popular-product swiper-slide" href="#">
+                            <div class="popular-slider__item">
+                                <img src="img/fish.jpg" alt="">
+                                <div class="popular-slider__item__card">
+                                    <h3 class="popular-slider__item__card__price">
+                                        $30
+                                    </h3>
+                                    <div class="popular-slider__item__card__decs">
+                                        <p class="popular-slider__item__card__title">
+                                            Fish Soup
+                                        </p>
+                                        <p class="rating">
+                                            4.5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slider-elll">
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-buttons swiper-prev">
+                            <!-- <img src="img/slider-arrow-prev.svg" alt=""> -->
+                        </div>
+                        <div class="swiper-buttons swiper-next">
+                           <!--  <img src="img/slider-arrow-next.svg" alt=""> -->
+                        </div>
+                    </div>
+                    
+                
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
